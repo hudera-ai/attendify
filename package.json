@@ -1,0 +1,19 @@
+{
+  "name": "attendify",
+  "version": "1.0.0",
+  "description": "Attendance & overtime system: shifts, grace periods, lateness, overtime, leaves, device punch import, monthly reports. Node + SQLite (sql.js) + vanilla JS.",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node server/src/index.js",
+    "dev": "node --watch server/src/index.js",
+    "seed": "node server/src/seed.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "dependencies": {
+    "express": "^5.3.0",
+    "sql.js": "^1.11.0"
+  },
+  "license": "MIT"
+}
